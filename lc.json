@@ -1,0 +1,15 @@
+{
+    "serviceName": "transcend-application",
+    "containers": {
+        "transcend-app-container": {
+            "image": ":transcend-application.latest.1",
+            "ports": {
+                "80": "HTTP"
+            }
+        }
+    },
+    "publicEndpoint": {
+        "containerName": "transcend-app-container",
+        "containerPort": 80
+    }
+}
