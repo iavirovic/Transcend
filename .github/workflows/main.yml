@@ -8,7 +8,7 @@ env:
   AWS_REGION: eu-west-3
   AWS_LIGHTSAIL_SERVICE_NAME: transcend-application
 
-job:
+jobs:
   build-and-push-docker-image:
     name: Build Docker image and push to repositories
     runs-on: ubuntu-latest
