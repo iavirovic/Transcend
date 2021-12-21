@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build image
-        run: docker build -t iavirovic/transcend:latest
+        run: docker build -t iavirovic/transcend:latest .
 
       - name: Install Utilities
         run: |
